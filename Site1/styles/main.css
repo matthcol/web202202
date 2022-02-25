@@ -1,0 +1,70 @@
+body {
+    color: black;
+    background-color: #f8f8f8;
+    font: normal 1.1rem Helvetica,sans-serif;
+}
+
+h1 {
+    font-size:x-large;
+    color: #f1d5ad;
+    background-color: #3cdaef;
+}
+
+h2 {
+    font-size:2rem;
+    color: #ec250b;
+    background-color: #49e024;
+}
+
+/* article>h2 { */
+article h2 {
+    color: #6d0fd8;
+    background-color: #c8daa0;
+}
+
+ul li {
+    color: #c91076;
+    background-color: #d3e6cf;
+}
+
+ul li li {
+    color: #ecdd0b;
+}
+
+#panneau {
+    width: 300px;
+    /* height:10px; */
+}
+
+#ville {
+    width: 300px;
+}
+
+.highlight {
+    font-weight: bold; /* bolder light lighter 400 700 900 */
+}
+
+.emphase {
+    font-style: italic;
+    font-family: fantasy,sans-serif;
+}
+
+/* video.video-ski {
+    width: 300px;
+} */
+
+.video-ski {
+    width: 300px;
+}
+
+nav a {
+    font-size: 1.3rem;
+    color:aliceblue;
+    background-color:rgb(14, 11, 11);
+    text-decoration:none;
+}
+
+nav a:hover {
+    color:rgb(14, 11, 11);
+    background-color:aliceblue;
+}

@@ -1,0 +1,40 @@
+/* table {
+    border-style: solid;
+    border-width: 1px;
+} */
+
+table {
+    border-style: none;
+}
+
+/*  1 sur 2  */
+
+tbody tr:nth-child(odd) {
+    background-color:lightgray;
+}
+
+tbody tr:nth-child(even) {
+    background-color:darkgray;
+}
+
+td,th {
+    color: rgb(236, 118, 138);
+}
+
+th {
+    font-weight: bold;
+}
+
+/*  1 sur 3  */
+
+/* tbody tr:nth-child(3n+1) {
+    background-color:darkgray;
+}
+
+tbody tr:nth-child(3n+2) {
+    background-color:rgb(236, 213, 171);
+}
+
+tbody tr:nth-child(3n) {
+    background-color:lightgray;
+} */
