@@ -1,0 +1,9 @@
+/* https://developer.mozilla.org/fr/docs/Web/CSS/Attribute_selectors */
+
+label {
+    font-weight: normal;
+}
+
+label[for="tdf"] {
+    font-weight: bold;
+}
