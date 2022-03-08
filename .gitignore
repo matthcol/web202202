@@ -2,3 +2,4 @@
 *.webm
 *.jfif
 node_modules/
+jquery-*.js

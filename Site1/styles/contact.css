@@ -1,3 +1,14 @@
+#content {
+    max-width: 600px;
+}
+
+@media only screen and (max-width: 480px){
+    #content {
+        max-width: 400px;
+    }
+}
+
+
 /* table {
     border-style: solid;
     border-width: 1px;
@@ -5,6 +16,7 @@
 
 table {
     border-style: none;
+    width: 100%;
 }
 
 /*  1 sur 2  */

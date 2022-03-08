@@ -100,8 +100,15 @@ d.getFullYear() // 2020 : année sur 4 chiffres
 d.getYear() // 120 : année sur "2" chiffres ;)
 d.getMonth() // 1 : mois mais numéroté à partir de 0
 
+// formattage de date (10 formats en preset)
+d.toLocaleString() // '07/03/2022, 10:01:59'
+d.toLocaleDateString() // '07/03/2022'
+d.toLocaleTimeString() // '10:01:59'
+
+
 // Le nombre de millisecondes écoulées depuis le premier janvier 1970 à minuit UTC.
 Date.now() // 1645875014577
 
 // obtenir la date du jour !!!
 d.setTime(Date.now())
+
